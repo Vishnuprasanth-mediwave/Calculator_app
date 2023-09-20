@@ -38,7 +38,7 @@ buttons.forEach((button) => {
       display.value = firstOperation;
     } else {
       secondOperation += buttonValue;
-      display.value += secondOperation;
+      display.value += buttonValue;
     }
   });
 });
